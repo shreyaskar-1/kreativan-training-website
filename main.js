@@ -6,6 +6,14 @@ tl.from("#md1", {
     repeat: -1
 })
 
+var tl = gsap.timeline()
+tl.from("#p",{
+     scale:0,
+     duration:1,
+    yoyo:true,
+     repeat:-1
+})
+
 
 document.addEventListener("DOMContentLoaded", function () {
     function toggleSearchField() {
