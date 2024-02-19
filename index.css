@@ -745,11 +745,16 @@ button[type="submit"]:hover {
 /* registeration */
 .main-conte{
     flex-grow: 1; 
-    height: 200vh;
+    height: 250vh;
     display: flex;
     flex-direction: column;
     background-color: #fdfdfd;
 }
+
+
+
+
+
 
 /* Responsive Design */
 @media (max-width: 992px) {
