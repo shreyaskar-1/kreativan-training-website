@@ -639,6 +639,8 @@ font-size: 20px;
 input[type="text"],
 input[type="email"],
 input[type="phone"],
+input[type="college"],
+input[type="address"],
 textarea {
     border-color: #e8edf6;
     background-color: #e8edf6;
@@ -663,6 +665,8 @@ textarea {
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="phone"]:focus,
+input[type="college"]:focus,
+input[type="address"]:focus,
 textarea:focus {
     border-color: #4c6eb0;
     background-color: white;
@@ -670,7 +674,6 @@ textarea:focus {
 .typography{
     font-size: 12px;
     color:grey;
-
 }
 button[type="submit"] {
     background-color: var(--wpforms-button-background-color);
@@ -743,13 +746,54 @@ button[type="submit"]:hover {
 }
 
 /* registeration */
-.main-conte{
+.main-conte {
     flex-grow: 1; 
-    height: 250vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
     background-color: #fdfdfd;
+    margin-top: 250px; 
+    margin-left: 140px;
 }
+
+.name-inputs {
+    display: flex;
+    gap: 50px;    /* grid-template-columns: 1fr 1fr; */
+}
+
+.name-input {
+    display: flex;
+    gap: 350px;    /* grid-template-columns: 1fr 1fr; */
+}
+.name-inputs input {
+    width: 320px;
+}
+select#courses {
+    border-color: #e8edf6;
+    background-color: #e8edf6;
+    height: 50px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border-width: 2px;
+    border-style: solid;
+    padding: 8px 18px;
+    width: 50%;
+    display: block;
+    outline: none !important;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+textarea#message {
+    width: 85%;
+    height:25%;
+}
+
+
+  
+  
+
 
 
 

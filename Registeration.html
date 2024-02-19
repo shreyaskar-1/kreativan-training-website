@@ -65,20 +65,29 @@
 
     <div class="main-conte">
       <form>
-        <label for="name">Name *</label><br>
-        <input type="text" id="name" name="name">
-        <div class="typography">First</div>
+        <label for="first_name">First Name *</label><br>
+        <div class="name-inputs">
+          <input type="text" id="first_namee" name="first_name">
+          <input type="text" id="last_namee" name="last_name">
+        </div>
+
+          <div class="name-input">
+          <div class="typography">First</div>
+          <div class="typography">Last</div>
+        </div>
         <br>
-        <input type="text" id="name" name="name">
-        <div class="typography">Last</div><br>
-        <label for="name">First Name *</label><br>
-        <input type="text" id="name" name="name">
-        <div class="typography">First</div>
+        <label for="first_name">Father Name *</label><br>
+        <div class="name-inputs">
+          <input type="text" id="first_namee" name="first_name">
+          <input type="text" id="last_namee" name="last_name">
+        </div>
+          <div class="name-input">
+          <div class="typography">First</div>
+          <div class="typography">Last</div>
+        </div>
         <br>
-        <input type="text" id="name" name="name">
-        <div class="typography">Last</div><br>
         <label for="address">Address *</label><br>
-        <input type="address" id="address" name="address"><br>
+        <input type="address" id="address" name="address"><br><br>
         <label for="phone">Phone no.</label><br>
         <input type="phone" id="phone" name="phone"><br>
         <label for="email">Email *</label><br>
@@ -86,12 +95,17 @@
         <label for="college">College *</label><br>
         <input type="college" id="college" name="college"><br>
         <label for="courses">Courses *</label><br>
-        <input type="courses" id="courses" name="courses"><br>
+        <select id="courses" name="courses">
+          <option value="course1">Course 1</option>
+          <option value="course2">Course 2</option>
+          <option value="course3">Course 3</option>
+        </select><br>
         <label for="message">Comment Box:</label><br><br>
         <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
         <button type="submit">Submit</button>
       </form>
     </div>
+    
 
     <!-- <footer class="footer"> -->
       <footer>
