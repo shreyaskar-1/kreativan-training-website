@@ -785,6 +785,10 @@ select#courses {
     -webkit-border-radius: 5px;
     border-radius: 5px;
 }
+select#courses:focus {
+    border-color: #4c6eb0;
+    background-color: white;
+}
 textarea#message {
     width: 85%;
     height:25%;
