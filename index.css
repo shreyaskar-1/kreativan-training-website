@@ -530,11 +530,11 @@ font-size: 20px;
 }
 
 .lower-right li {
-    margin-left: 20px; /* Adjust margin as needed */
+    margin-left: 20px; 
 }
 
 .lower-right li:first-child {
-    margin-left: 0; /* Remove margin for the first li element */
+    margin-left: 0; 
 }
 
 .lower-right li a{
@@ -795,8 +795,34 @@ textarea#message {
 }
 
 
-  
-  
+/* services */
+.main-contents {
+    flex-grow: 1; 
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fdfdfd;
+    margin-top: 250px; 
+    margin-left: 140px;
+}
+
+
+
+/* training */
+.main-contentt {
+    flex-grow: 1; 
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fdfdfd;
+    margin-top: 250px; 
+    margin-left: 140px;
+}
+
+
+/* Responsive design for pages*/
+/* Home Responsive design */
+
 
 
 
